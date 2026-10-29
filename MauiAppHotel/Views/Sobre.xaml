@@ -14,7 +14,7 @@
 
         <Label Text="Sobre o App"
                FontFamily="Boogaloo"
-               FontSize="40"
+               FontSize="50"
                HorizontalTextAlignment="Center"
                TextColor="{StaticResource Primary}" />
 
