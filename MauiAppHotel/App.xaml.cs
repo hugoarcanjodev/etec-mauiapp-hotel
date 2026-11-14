@@ -1,5 +1,6 @@
 ﻿using MauiAppHotel.Models;
 using Microsoft.Extensions.DependencyInjection;
+using System.Globalization;
 
 namespace MauiAppHotel
 {
@@ -35,6 +36,10 @@ namespace MauiAppHotel
 
         public App()
         {
+            var culture = new CultureInfo("pt-BR");
+            CultureInfo.DefaultThreadCurrentCulture = culture;
+            CultureInfo.DefaultThreadCurrentUICulture = culture;
+
             InitializeComponent();
         }
 
